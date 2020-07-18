@@ -84,14 +84,21 @@ body
 .light-mode, .dark-mode{
     font-size: 1.5em;
     position: fixed;
-    z-index: 99;
+    z-index: 98;
     right: 16%;
     cursor: pointer;
     color: rgb(59, 158, 175);
+    transition: all 400ms ease-in;
 }
-
 
 .dark-mode{
     display: none;
-    
+}
+
+.dm-is-active{
+    display: initial;
+}
+
+.lm-is-active{
+    display: none;
 }
