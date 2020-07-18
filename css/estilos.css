@@ -59,6 +59,7 @@ body
     text-align: left;
     border: 1px solid #DDD;
     margin: auto;
+    position: relative;
 }
 
 #container h1
@@ -76,4 +77,21 @@ body
     color: white;
     text-align: center;
     padding: 0.5em;
+}
+
+
+/* Estilos para el boton light y dark */
+.light-mode, .dark-mode{
+    font-size: 1.5em;
+    position: fixed;
+    z-index: 99;
+    right: 16%;
+    cursor: pointer;
+    color: rgb(59, 158, 175);
+}
+
+
+.dark-mode{
+    display: none;
+    
 }
