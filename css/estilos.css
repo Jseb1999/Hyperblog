@@ -40,7 +40,11 @@ body
     text-align: left;
     font-family: "Arial";
     font-size: 16px;
+    
 }
+
+
+
 
 #cabecera
 {
@@ -60,6 +64,14 @@ body
     border: 1px solid #DDD;
     margin: auto;
     position: relative;
+    height: 80vh;
+    width: 70vw;
+   
+   
+}
+.container-dark{
+    background-color: rgb(30, 35, 71);
+    color: white;
 }
 
 #container h1
@@ -76,7 +88,12 @@ body
     background: #777;
     color: white;
     text-align: center;
-    padding: 0.5em;
+    padding: 1em;
+    position: absolute;
+    width: 70vw;
+    left: 0;
+    bottom: 0;
+    
 }
 
 
